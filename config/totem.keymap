@@ -63,6 +63,18 @@
                 key-positions = <32 37>;
                 bindings = <&mo ADJ>;
             };
+
+            combo_bspc {
+                timeout-ms = <50>;
+                key-positions = <6 7>;
+                bindings = <&kp BSPC>;
+            };
+
+            combo_ret {
+                timeout-ms = <50>;
+                key-positions = <16 17>;
+                bindings = <&kp RET>;
+            };
     };
 
     keymap {
