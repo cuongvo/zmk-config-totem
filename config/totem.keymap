@@ -52,11 +52,18 @@
 
     combos {
             compatible = "zmk,combos";
+
             combo_esc {
                 timeout-ms = <50>;
-                key-positions = <0 1>;
+                key-positions = <2 3>;
                 bindings = <&kp ESC>;
             };
+
+			combo_tab {
+				timeout-ms = <50>;
+				key-positions = <12 13>;
+				bindings = <&kp TAB>;
+			};
 
             combo_adj {
                 timeout-ms = <50>;
@@ -92,7 +99,7 @@ label= "BASE"                              ;
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃ CLTR/ESC  ┃     Z     ┃     X     ┃     C     ┃     V     ┃     B     ┃   ┃     N     ┃     M     ┃     ,     ┃     .     ┃     /     ┃  ALT/BSPC ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃  CMD/TAB  ┃    TAB    ┃    SPC    ┃   ┃NAVI/ENTER ┃     SYM   ┃   NUM     ┃
+//                                     ┃    CMD    ┃   SHIFT   ┃    SPC    ┃   ┃   NAVI    ┃     SYM   ┃   NUM     ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
@@ -100,7 +107,7 @@ label= "BASE"                              ;
                 &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
                 &kp A       &kp S       &kp D       &kp F       &kp G           &kp H       &kp J       &kp K       &kp L       &kp SEMI
     &mt LCTRL ESC &kp Z     &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &mt LALT BSPC
-                                        &mt LGUI TAB &shftcw    &kp SPACE       &lt NAV RET &mo SYM     &mo NUM
+                                        &kp LGUI    &shftcw    &kp SPACE        &mo NAV     &mo SYM     &mo NUM
                         >;
                 };
 
