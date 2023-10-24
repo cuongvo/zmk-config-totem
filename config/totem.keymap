@@ -119,18 +119,18 @@ label= "BASE"                              ;
 label= "NAV"                               ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-//             ┃           ┃           ┃           ┃           ┃  VOL UP   ┃   ┃  PGE DWN  ┃  PGE UP   ┃     INS   ┃    DEL    ┃    BSC    ┃
+//             ┃   TAB     ┃           ┃           ┃           ┃  VOL UP   ┃   ┃  PGE DWN  ┃  PGE UP   ┃     INS   ┃    DEL    ┃    BSC    ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //             ┃   CMD     ┃   LALT    ┃   LCTRL   ┃   LSHFT   ┃  VOL DWN  ┃   ┃   LEFT    ┃    DOWN   ┃      UP   ┃  RIGHT    ┃    RET    ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃           ┃           ┃           ┃           ┃           ┃           ┃   ┃    PREV   ┃   PAUSE   ┃    NEXT   ┃  END      ┃           ┃           ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃           ┃           ┃           ┃   ┃           ┃           ┃           ┃
+//                                     ┃    ESC    ┃           ┃           ┃   ┃           ┃           ┃           ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &none       &none       &none       &none       &kp C_VOL_UP    &kp PAGE_DOWN &kp PAGE_UP &kp INSERT &kp DELETE &kp BSPC         
+                &kp TAB       &none       &none       &none       &kp C_VOL_UP    &kp PAGE_DOWN &kp PAGE_UP &kp INSERT &kp DELETE &kp BSPC         
                 &sk LGUI    &sk LALT    &sk LCTRL   &sk LSHFT   &kp C_VOL_DN    &kp LEFT     &kp DOWN   &kp UP      &kp RIGHT   &kp RET           
     &trans      &bt BT_NXT  &bt BT_PRV  &none       &none       &none           &kp K_PREV   &kp K_PP   &kp K_NEXT  &kp END     &none       &trans
                                         &kp ESC     &trans      &trans          &trans       &trans     &trans
