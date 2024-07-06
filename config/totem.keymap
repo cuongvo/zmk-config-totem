@@ -74,10 +74,10 @@
         };
 
         combo_bspc {
-            timeout-ms = <50>;
+            timeout-ms = <60>;
             key-positions = <6 7>;
             bindings = <&kp BSPC>;
-            require-prior-idle-ms = <75>;
+            require-prior-idle-ms = <60>;
         };
 
         combo_ret {
