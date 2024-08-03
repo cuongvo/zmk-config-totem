@@ -134,10 +134,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp TAB   &none     &kp C_BRIGHTNESS_DEC  &kt C_BRIGHTNESS_INC  &kp C_VOL_UP    &kp PAGE_DOWN  &kp PAGE_UP  &kp INSERT  &kp DELETE  &kp BSPC
+        &trans    &none     &kp C_BRIGHTNESS_DEC  &kt C_BRIGHTNESS_INC  &kp C_VOL_UP    &kp PAGE_DOWN  &kp PAGE_UP  &kp INSERT  &kp DELETE  &kp BSPC
         &kp LGUI  &kp LALT  &kp LCTRL             &kp LSHFT             &kp C_VOL_DN    &kp LEFT       &kp DOWN     &kp UP      &kp RIGHT   &kp RET
 &trans  &none     &none     &none                 &none                 &none           &kp K_PREV     &kp K_PP     &kp K_NEXT  &kp END     &none     &trans
-                            &kp ESC               &trans                &trans          &trans         &trans       &trans
+                            &kp ESC               &kp TAB               &trans          &trans         &trans       &trans
             >;
         };
 
