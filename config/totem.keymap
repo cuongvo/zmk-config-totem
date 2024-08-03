@@ -23,8 +23,8 @@
 #define ADJ  4
 
 &mt {
-    flavor = "tap-preferred";
-    tapping-term-ms = <100>;
+    flavor = "hold-preferred";
+    tapping-term-ms = <160>;
     require-prior-idle-ms = <125>;
 };
 
