@@ -24,7 +24,7 @@
 
 &mt {
     quick-tap-ms = <130>;
-    flavor = "tap-unless-interrupted";
+    flavor = "tap-preferred";
     tapping-term-ms = <100>;
     require-prior-idle-ms = <100>;
 };
