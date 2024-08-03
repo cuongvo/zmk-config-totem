@@ -23,11 +23,10 @@
 #define ADJ  4
 
 &mt {
-    quick-tap-ms = <150>;
-    global-quick-tap;
-    flavor = "tap-preferred";
-    tapping-term-ms = <150>;
-    require-prior-idle-ms = <125>;
+    quick-tap-ms = <130>;
+    flavor = "tap-unless-interrupted";
+    tapping-term-ms = <100>;
+    require-prior-idle-ms = <100>;
 };
 
 /*                KEY POSITIONS
