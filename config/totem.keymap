@@ -156,10 +156,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp TAB        &kp NUMBER_7        &kp NUMBER_8         &kt NUMBER_9         &kp PLUS     &kp PAGE_DOWN  &kp PAGE_UP  &kp INSERT  &kp DELETE  &kp BSPC
-        &hml LCMD TAB  &hml LALT NUMBER_4  &hml LSHFT NUMBER_5  &hml LCTRL NUMBER_6  &kp EQUAL    &kp LEFT       &kp DOWN     &kp UP      &kp RIGHT   &kp RET
-&trans  &none          &kp NUMBER_1        &kp NUMBER_2         &kp NUMBER_3         &kp MINUS    &kp K_PREV     &kp K_PP     &kp K_NEXT  &kp END     &none     &trans
-                                           &trans               &trans               &trans       &trans         &trans       &trans
+        &kp TAB           &kp NUMBER_7        &kp NUMBER_8         &kt NUMBER_9         &kp PLUS     &kp PAGE_DOWN  &kp PAGE_UP  &kp INSERT  &kp DELETE  &kp BSPC
+        &hml LCMD ESCAPE  &hml LALT NUMBER_4  &hml LSHFT NUMBER_5  &hml LCTRL NUMBER_6  &kp EQUAL    &kp LEFT       &kp DOWN     &kp UP      &kp RIGHT   &kp RET
+&trans  &none             &kp NUMBER_1        &kp NUMBER_2         &kp NUMBER_3         &kp MINUS    &kp K_PREV     &kp K_PP     &kp K_NEXT  &kp END     &none     &trans
+                                              &trans               &trans               &trans       &trans         &trans       &trans
             >;
         };
 
