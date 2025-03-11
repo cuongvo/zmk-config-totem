@@ -51,7 +51,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <280>;
+            tapping-term-ms = <200>;
             quick-tap-ms = <175>;
             require-prior-idle-ms = <150>;
             flavor = "balanced";
@@ -65,7 +65,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <280>;
+            tapping-term-ms = <200>;
             quick-tap-ms = <175>;
             require-prior-idle-ms = <150>;
             flavor = "balanced";
@@ -136,10 +136,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-               &kp Q        &kp W            &kp E         &kp R              &kp T        &kp Y    &kp U               &kp I          &kp O             &kp P
-               &hml LCMD A  &hml LEFT_ALT S  &hml LCTRL D  &hml LEFT_SHIFT F  &kp G        &kp H    &hmr RIGHT_SHIFT J  &hmr RCTRL K   &hmr RIGHT_ALT L  &hmr RCMD SEMI
-&mt LCTRL ESC  &kp Z        &kp X            &kp C         &kp V              &kp B        &kp N    &kp M               &kp COMMA      &kp DOT           &kp FSLH        &mt LALT ENTER
-                                             &kp LGUI      &kp LEFT_SHIFT     &kp SPACE    &mo NAV  &mo SYM             &kp BACKSPACE
+               &kp Q        &kp W            &kp E         &kp R              &kp T        &kp Y    &kp U               &kp I         &kp O             &kp P
+               &hml LCMD A  &hml LEFT_ALT S  &hml LCTRL D  &hml LEFT_SHIFT F  &kp G        &kp H    &hmr RIGHT_SHIFT J  &hmr RCTRL K  &hmr RIGHT_ALT L  &hmr RCMD SEMI
+&mt LCTRL ESC  &kp Z        &kp X            &kp C         &kp V              &kp B        &kp N    &kp M               &kp COMMA     &kp DOT           &kp FSLH        &mt LALT ENTER
+                                             &kp LGUI      &kp LEFT_SHIFT     &kp SPACE    &mo NAV  &mo SYM             &mo 3
             >;
         };
 
@@ -214,10 +214,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp BSLH   &kp N7  &kp N8  &kp N9  &kp PLUS        &trans  &kp F7  &kp F8  &kp F9  &kp F12
-        &kp N0     &kp N4  &kp N5  &kp N6  &kp EQUAL       &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &kp PIPE2  &kp N1  &kp N2  &kp N3  &kp KP_MINUS    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
-                           &trans  &trans  &trans          &trans  &trans  &trans
+        &kp BSLH   &kp N7  &kp N8  &kp N9  &kp PLUS        &trans  &kp F7               &kp F8         &kp F9        &kp F12
+        &kp N0     &kp N4  &kp N5  &kp N6  &kp EQUAL       &trans  &hmr RIGHT_SHIFT F4  &hmr RCTRL F5  &hmr RALT F6  &hmr RCMD F11
+&trans  &kp PIPE2  &kp N1  &kp N2  &kp N3  &kp KP_MINUS    &trans  &kp F1               &kp F2         &kp F3        &kp F10        &trans
+                           &trans  &trans  &trans          &trans  &trans               &trans
             >;
         };
 
